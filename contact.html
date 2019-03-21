@@ -13,10 +13,10 @@
     <body>
 
         <header class="container-fluid px-0 px-md-3 border-bottom">
-                <h1 class="float-md-left text-center p-md-2 mb-0 text-white navbar-info bg-info">Cali Mitchell</h1>
+                <h1 class="float-md-left text-center p-md-2 mb-0 text-white bg-info">Cali Mitchell</h1>
                 <div class="row">
                     <div class="col-md-6"></div>
-                <nav class="navbar navbar-info bg-info text-muted bg-light text-center float-sm-none float-md-right">
+                <nav class="navbar navbar-light float-sm-none float-md-right">
                     <ul class="list-inline"> 
                         <li class="list-inline-item"><a class="nav-link" href="index.html" target="_blank">About</a></li> |
                         <li class="list-inline-item"><a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a></li> |
@@ -27,28 +27,33 @@
         </header>    
         
         <div class="Main">
-            <h2 class="col float-left float-md-left px-4 border">Contact</h2>
-
-            <div class="container">
-                <form>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Name</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+            <div class="row">
+                <div class="col">
+                    <h2 class="px-4 border">Contact</h2>
+                        
+                    <div class="container">
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">Email</label>
+                                <input type="text" class="form-control text-muted" id="formGroupExampleInput2" placeholder="Example@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control text-muted" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <button type="submit" class="btn btn-info mt-2">Submit</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2">Email</label>
-                        <input type="text" class="form-control text-muted" id="formGroupExampleInput2" placeholder="Example@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control text-muted" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        <button type="submit" class="btn btn-info mt-2">Submit</button>
-                    </div>
-                </form>
+                </div>
             </div>   
+        </div>
 
         <footer>
-            <div class="container-fluid px-0">
+            <div class="container-fluid px-0 footer-block mb-0">
                 <p class="text-center mb-0 mxy-0 py-3 text-white bg-info">
                     Copyright &copy; 
                 </p>
