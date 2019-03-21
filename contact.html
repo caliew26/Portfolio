@@ -12,37 +12,47 @@
     
     <body>
 
-            <header class="container-fluid px-0 px-md-3 border-bottom">
-                    <h1 class="float-md-left text-center p-md-2 mb-0 text-white navbar-info bg-info">Cali Mitchell</h1>
-                    <div class="row">
-                        <div class="col-md-6"></div>
-                    <nav class="navbar navbar-info bg-info text-muted bg-light text-center float-sm-none float-md-right">
-                        <ul class="list-inline"> 
-                            <li class="list-inline-item"><a class="nav-link" href="index.html" target="_blank">About</a></li> |
-                            <li class="list-inline-item"><a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a></li> |
-                            <li class="list-inline-item"><a class="nav-link" href="contact.html" target="_blank">Contact</a></li>
-                        </ul>
-                    </nav>
-                    </div>
-            </header>    
+        <header class="container-fluid px-0 px-md-3 border-bottom">
+                <h1 class="float-md-left text-center p-md-2 mb-0 text-white navbar-info bg-info">Cali Mitchell</h1>
+                <div class="row">
+                    <div class="col-md-6"></div>
+                <nav class="navbar navbar-info bg-info text-muted bg-light text-center float-sm-none float-md-right">
+                    <ul class="list-inline"> 
+                        <li class="list-inline-item"><a class="nav-link" href="index.html" target="_blank">About</a></li> |
+                        <li class="list-inline-item"><a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a></li> |
+                        <li class="list-inline-item"><a class="nav-link" href="contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+                </div>
+        </header>    
         
         <div class="Main">
-            <h2>Contact</h2>
-        <!--I should have used "form" here for user input ability-->
+            <h2 class="col float-left float-md-left px-4 border">Contact</h2>
+
             <div class="container">
-                <h5>Name</h5>
-                    <p class="response">John Smith</p>
-                <h5>Email</h5>
-                    <p class="response">Example@gmailcom</p>
-                <h5>Message</h5>
-                    <p class="response">Message</p>
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Email</label>
+                        <input type="text" class="form-control text-muted" id="formGroupExampleInput2" placeholder="Example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control text-muted" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="submit" class="btn btn-info mt-2">Submit</button>
+                    </div>
+                </form>
+            </div>   
 
-                <button class="button">Submit</button>
+        <footer>
+            <div class="container-fluid px-0">
+                <p class="text-center mb-0 mxy-0 py-3 text-white bg-info">
+                    Copyright &copy; 
+                </p>
             </div>
-        </div>
-
-    <footer>
-        <small>Copyright &copy</small>
-    </footer>
+        </footer>
 </body>
 </html>
