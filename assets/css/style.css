@@ -16,3 +16,8 @@ h3 {
     text-align: center;
     font-size: 20px;
 }
+
+.wrapper {
+    font-size: 145%;
+    color: #007bff;
+}
