@@ -1,15 +1,21 @@
+.main {
+
+}
+
 .box {
     width: 200px;
     height: 200px;
     position: relative;
     margin: 5px;
+    padding: 2px;
 }
 
 h3 {
     position: absolute;
-    display: inline-block;
+    display: block;
+    /* display: inline-block; */
     width: 200px;
-    height: 50px;
+    height: 65px;
     background: orange;
     margin: 125px 0;
     padding-top: 10px;
@@ -20,4 +26,17 @@ h3 {
 .wrapper {
     font-size: 145%;
     color: #007bff;
+}
+
+/* img {
+    width: 100%;
+    opacity: 0.2;
+} */
+
+p, h1 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
 }
