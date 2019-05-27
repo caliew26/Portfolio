@@ -61,3 +61,17 @@ h1 {
     animation-duration: 4s;
     animation-iteration-count: 3;
   } */
+
+
+  p {
+      margin: 0;
+      padding: 0;
+  }
+
+  img {
+      opacity: 1.0;
+  }
+
+  img:hover {
+      opacity: 0.5;
+  }
