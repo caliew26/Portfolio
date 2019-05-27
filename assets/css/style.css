@@ -26,7 +26,7 @@ h3 {
     display: inline-block;
     width: 200px;
     height: 45px;
-    background: orange;
+    background: peachpuff;
     margin: 145px 0;
     padding-top: 5px;
     text-align: center;
@@ -74,4 +74,13 @@ h1 {
 
   img:hover {
       opacity: 0.5;
+  }
+
+  .jumbotron {
+      background-color: peachpuff;
+      border: 2px solid papayawhip;
+  }
+
+  .hover {
+      color: black;
   }
