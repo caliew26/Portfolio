@@ -1,3 +1,11 @@
+/* .homepage {
+    background-image: url("/assets/images/cali2019sun.jpg");
+} */
+
+body {
+    background: black;
+}
+
 .header {
     background-color: #B1C4CC;
     height: 75px;
@@ -77,7 +85,7 @@ h1 {
   }
 
   .jumbotron {
-      background-color: peachpuff;
+      background-color: gainsboro;
       border: 2px solid papayawhip;
   }
 
