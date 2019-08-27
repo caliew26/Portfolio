@@ -6,6 +6,18 @@ body {
     background: black;
 }
 
+.aboutMeContainer {
+    background: lightgrey;
+}
+
+.aboutMeNav {
+    height: 50px;
+} 
+
+.portfolioPage {
+    background: lightgray;
+}
+
 .header {
     background-color: #B1C4CC;
     height: 75px;
