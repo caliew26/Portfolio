@@ -3,7 +3,8 @@
 } */
 
 body {
-    background: black;
+    /*background: black;*/
+    background: pink;
 }
 
 .aboutMeContainer {
@@ -21,7 +22,7 @@ body {
 .header {
     background-color: #B1C4CC;
     height: 75px;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -46,7 +47,7 @@ h3 {
     display: inline-block;
     width: 200px;
     height: 45px;
-    background: peachpuff;
+    /*background: peachpuff;*/
     margin: 145px 0;
     padding-top: 5px;
     text-align: center;
@@ -69,7 +70,7 @@ h1 {
     text-align: center;
     font-size: 15px;
     margin: 2px;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
 }
 
 /* .animation {
@@ -98,7 +99,7 @@ h1 {
 
   .jumbotron {
       background-color: gainsboro;
-      border: 2px solid papayawhip;
+      /*border: 2px solid papayawhip;*/
   }
 
   .hover {
